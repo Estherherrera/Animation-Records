@@ -1,0 +1,44 @@
+body {
+    background-color: #E5E5E5;
+        max-width: 800px;
+        margin:0px auto;
+      }
+
+
+header {
+    display: flex;
+    background-image: url(/public/assets/photos/banners/banner2.jpg);
+
+    background-repeat: no-repeat;
+    width: 886px;
+    height: 114px;
+   
+   
+
+h1{
+    align-self: flex-end;
+}
+
+    .logotype {
+        position: absolute;
+        width: 20%;
+        height: 20%;
+        
+    }
+
+    nav {
+       
+        margin-top: 40px;
+        margin-left: 22%;
+        display: flex;
+       img {
+           max-width: 40px;
+           padding: 4px;
+       }
+
+    }
+}
+
+footer {
+    text-align:center;
+}
