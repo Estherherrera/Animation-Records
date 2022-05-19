@@ -40,13 +40,8 @@ nav .movies {
 
 footer {
   text-align: center;
-<<<<<<< HEAD
   background-color: #48D9A6;
   max-width: 800px;
-=======
-  background-color: rgba(84, 157, 225, 0.0901960784);
-  margin: 0px auto;
->>>>>>> iria
 }
 
 h1 {
@@ -137,8 +132,6 @@ h2 {
   margin-right: 3em;
   margin-bottom: 3em;
 }
-<<<<<<< HEAD
-=======
 
 #form {
   background-image: url(/public/assets/photos/banners/banner3.jpg);
@@ -158,6 +151,5 @@ form {
   width: 600px;
   padding-top: 4.5em;
 }
->>>>>>> iria
 
 /*# sourceMappingURL=homepage.css.map */

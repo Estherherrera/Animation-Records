@@ -45,17 +45,22 @@ header {
     }
     nav {
         margin-top: 40px;
-        margin-left: 45%;
+        margin-left: 33%;
         display: flex;
         img {
             max-width: 40px;
             padding: 4px;
         }
+        .movies {
+            padding: 0%;
+            height: fit-content;
+            align-self: center;
+        }
     }
     h1 {
         text-shadow: 0.03em 0.03em 0.08em black;
         text-align: center;
-        margin-left: 2.8em;
+        margin-left: 2.5em;
     }
 }
 
