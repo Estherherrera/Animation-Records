@@ -1,5 +1,4 @@
 body {
-<<<<<<< HEAD
   background-color: #E5E5E5;
   max-width: 800px;
   margin: 0px auto;
@@ -32,8 +31,6 @@ header nav img {
 
 footer {
   text-align: center;
-}
-=======
   background-color: rgba(84, 157, 225, 0.0901960784);
   margin: 0px auto;
 }
@@ -126,6 +123,24 @@ h2 {
   margin-right: 3em;
   margin-bottom: 3em;
 }
->>>>>>> iria
+
+#form {
+  background-image: url(/public/assets/photos/banners/banner3.jpg);
+  background-size: cover;
+  background-position: center;
+  margin: 0 auto;
+  height: 10em;
+  border: 1px solid #CCC;
+  position: relative;
+  overflow: hidden;
+  justify-content: center;
+}
+
+form {
+  display: inline-block;
+  text-align: right;
+  width: 600px;
+  padding-top: 4.5em;
+}
 
 /*# sourceMappingURL=homepage.css.map */
