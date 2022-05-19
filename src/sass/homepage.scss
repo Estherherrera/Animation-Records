@@ -2,20 +2,21 @@ body {
     background-color: #E5E5E5;
         max-width: 800px;
         margin:0px auto;
+        text-align: center;
       }
 
 
 header {
     display: flex;
     background-image: url(/public/assets/photos/banners/banner2.jpg);
-
+    background-size: cover;
     background-repeat: no-repeat;
-    width: 886px;
+    max-width: 800px;
     height: 114px;
    
    
 
-h1{
+#company{
     align-self: flex-end;
 }
 
@@ -41,8 +42,8 @@ h1{
 
 footer {
     text-align:center;
-background-color: #549de117;
-margin: 0px auto;
+    background-color: #48D9A6;
+    max-width: 800px;
 }
 
 h1 {

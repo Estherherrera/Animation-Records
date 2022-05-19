@@ -1,18 +1,19 @@
 body {
-<<<<<<< HEAD
   background-color: #E5E5E5;
   max-width: 800px;
   margin: 0px auto;
+  text-align: center;
 }
 
 header {
   display: flex;
   background-image: url(/public/assets/photos/banners/banner2.jpg);
+  background-size: cover;
   background-repeat: no-repeat;
-  width: 886px;
+  max-width: 800px;
   height: 114px;
 }
-header h1 {
+header #company {
   align-self: flex-end;
 }
 header .logotype {
@@ -32,10 +33,8 @@ header nav img {
 
 footer {
   text-align: center;
-}
-=======
-  background-color: rgba(84, 157, 225, 0.0901960784);
-  margin: 0px auto;
+  background-color: #48D9A6;
+  max-width: 800px;
 }
 
 h1 {
@@ -126,6 +125,5 @@ h2 {
   margin-right: 3em;
   margin-bottom: 3em;
 }
->>>>>>> iria
 
 /*# sourceMappingURL=homepage.css.map */
