@@ -1,17 +1,95 @@
-/* Error: Expected expression.
- *    ,
- * 14 |     background: ;
- *    |                 ^
- *    '
- *   src\sass\homepage.scss 14:17  root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Expected expression.\a    \2577 \a 14 \2502      background: ;\d\a    \2502                  ^\a    \2575 \a   src\\sass\\homepage.scss 14:17  root stylesheet";
+body {
+  background-color: rgba(84, 157, 225, 0.0901960784);
+  margin: 0px auto;
 }
+
+h1 {
+  text-shadow: 0.03em 0.03em 0.08em black;
+  text-align: left;
+  margin-left: 2.8em;
+}
+
+h2 {
+  text-shadow: 0.03em 0.03em 0.08em white;
+  text-align: center;
+}
+
+#categories {
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.film1 {
+  background-image: url(../photos/banners/Howl.jpg);
+  background-size: cover;
+  width: 20em;
+  height: 6em;
+  text-align: center;
+  border: solid black 2px;
+  margin-right: 3em;
+  margin-bottom: 3em;
+}
+
+.film2 {
+  background-image: url(../photos/banners/Castillo.jpg);
+  background-size: cover;
+  width: 20em;
+  height: 6em;
+  text-align: center;
+  border: solid black 2px;
+  margin-right: 3em;
+  margin-bottom: 3em;
+}
+
+.film3 {
+  background-image: url(../photos/banners/chihiro.png);
+  background-size: cover;
+  background-position: center;
+  width: 20em;
+  height: 6em;
+  text-align: center;
+  border: solid black 2px;
+  margin-right: 3em;
+  margin-bottom: 3em;
+}
+
+.film4 {
+  background-image: url(../photos/banners/mononoke.png);
+  background-size: cover;
+  background-position: center;
+  width: 20em;
+  height: 6em;
+  text-align: center;
+  border: solid black 2px;
+  margin-right: 3em;
+  margin-bottom: 3em;
+}
+
+.film5 {
+  background-image: url(../photos/banners/totoro.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 20em;
+  height: 6em;
+  text-align: center;
+  border: solid black 2px;
+  margin-right: 3em;
+  margin-bottom: 3em;
+}
+
+.film6 {
+  background-image: url(../photos/banners/ponyo.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 20em;
+  height: 6em;
+  text-align: center;
+  border: solid black 2px;
+  margin-right: 3em;
+  margin-bottom: 3em;
+}
+
+/*# sourceMappingURL=homepage.css.map */
