@@ -20,6 +20,8 @@ header {
     align-self: flex-end;
 }
 
+
+}
     .logotype {
         position: absolute;
         width: 20%;
@@ -32,13 +34,19 @@ header {
         margin-top: 40px;
         margin-left: 22%;
         display: flex;
+        
        img {
            max-width: 40px;
            padding: 4px;
        }
+       .movies {
+           padding: 0%;
+           height: fit-content;
+           align-self: center;
+       }
 
     }
-}
+
 
 footer {
     text-align:center;
@@ -136,6 +144,3 @@ h2 {
     margin-bottom: 3em;
 }
 
-#form {
-    
-}

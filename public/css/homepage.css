@@ -16,19 +16,26 @@ header {
 header #company {
   align-self: flex-end;
 }
-header .logotype {
+
+.logotype {
   position: absolute;
   width: 20%;
   height: 20%;
 }
-header nav {
+
+nav {
   margin-top: 40px;
   margin-left: 22%;
   display: flex;
 }
-header nav img {
+nav img {
   max-width: 40px;
   padding: 4px;
+}
+nav .movies {
+  padding: 0%;
+  height: fit-content;
+  align-self: center;
 }
 
 footer {
