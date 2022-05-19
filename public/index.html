@@ -10,14 +10,24 @@
 <body>
     <header>
         <img id="logotype" src="/public/assets/photos/Totoro-cabeza.png" alt="Cabeza de totoro">
-        <h1>Animation Records</h1>
+        <h2 id="company">Animation Records</h2>
         <nav>
-            <img id="home" src="/public/assets/photos/house-chimney-solid.svg" alt="picture of a house">
-            <img id="categories" src="/public/assets/photos/film-solid.svg" alt="film">
             <img id="cart" src="/public/assets/photos/cart-shopping-solid.svg" alt="cart"> 
+            <img id="home" src="/public/assets/photos/house-chimney-solid.svg" alt="picture of a house">
+            <img id="droplist" src="/public/assets/photos/film-solid.svg" alt="film">
+            
+            <select class="movies" name="movies">
+                <option value="film0">Seleccione su película</option>
+                <option value="film1">El Castillo Ambulante</option>
+                <option value="film2">El Castillo en el cielo</option>
+                <option value="film3">El viaje de Chihiro</option>
+                <option value="film4">La Princesa Mononoke</option>
+                <option value="film5">Mi Vecino Totoro</option>
+                <option value="film6">Ponyo en el Acantilado</option>
+            </select>
         </nav>
     </header>
-    <h1>Categorías</h1>
+    <h1> Categorías</h1>
     <section id="categories">
         <div class="film1">
             <h2>El Castillo Ambulante</h2>
@@ -43,7 +53,7 @@
         <form action="">
             <input type="text" name="username" id="name" placeholder="Username">
             <input type="email" name="email" id="email" placeholder="Email">
-            
+            <button type="submit">Enviar</button>
         </form>
     </section>
     <footer>

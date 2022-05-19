@@ -20,6 +20,8 @@ header {
     align-self: flex-end;
 }
 
+
+}
     .logotype {
         position: absolute;
         width: 20%;
@@ -32,13 +34,19 @@ header {
         margin-top: 40px;
         margin-left: 22%;
         display: flex;
+        
        img {
            max-width: 40px;
            padding: 4px;
        }
+       .movies {
+           padding: 0%;
+           height: fit-content;
+           align-self: center;
+       }
 
     }
-}
+
 
 footer {
     text-align:center;
@@ -137,5 +145,20 @@ h2 {
 }
 
 #form {
-    
+    background-image: url(/public/assets/photos/banners/banner3.jpg);
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto;
+    height: 10em;
+    border: 1px solid #CCC;
+    position: relative;
+    overflow: hidden;
+    justify-content: center;
+}
+
+form {
+    display: inline-block;
+    text-align: right;
+    width: 600px;
+    padding-top: 4.5em;
 }

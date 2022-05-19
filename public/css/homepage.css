@@ -16,25 +16,37 @@ header {
 header #company {
   align-self: flex-end;
 }
-header .logotype {
+
+.logotype {
   position: absolute;
   width: 20%;
   height: 20%;
 }
-header nav {
+
+nav {
   margin-top: 40px;
   margin-left: 22%;
   display: flex;
 }
-header nav img {
+nav img {
   max-width: 40px;
   padding: 4px;
+}
+nav .movies {
+  padding: 0%;
+  height: fit-content;
+  align-self: center;
 }
 
 footer {
   text-align: center;
+<<<<<<< HEAD
   background-color: #48D9A6;
   max-width: 800px;
+=======
+  background-color: rgba(84, 157, 225, 0.0901960784);
+  margin: 0px auto;
+>>>>>>> iria
 }
 
 h1 {
@@ -125,5 +137,27 @@ h2 {
   margin-right: 3em;
   margin-bottom: 3em;
 }
+<<<<<<< HEAD
+=======
+
+#form {
+  background-image: url(/public/assets/photos/banners/banner3.jpg);
+  background-size: cover;
+  background-position: center;
+  margin: 0 auto;
+  height: 10em;
+  border: 1px solid #CCC;
+  position: relative;
+  overflow: hidden;
+  justify-content: center;
+}
+
+form {
+  display: inline-block;
+  text-align: right;
+  width: 600px;
+  padding-top: 4.5em;
+}
+>>>>>>> iria
 
 /*# sourceMappingURL=homepage.css.map */
