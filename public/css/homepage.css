@@ -18,6 +18,16 @@ header #company {
   align-self: flex-end;
 }
 
+.banner1 {
+  background-image: url(/public/assets/photos/banners/banner.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  max-width: 800px;
+  height: 150px;
+  margin-top: 3em;
+}
+
 .logotype {
   position: absolute;
   width: 20%;
