@@ -18,6 +18,7 @@ header #company {
   align-self: flex-end;
 }
 
+<<<<<<< HEAD
 .banner1 {
   background-image: url(/public/assets/photos/banners/banner.png);
   background-size: cover;
@@ -28,6 +29,8 @@ header #company {
   margin-top: 3em;
 }
 
+=======
+>>>>>>> 05f8339c6b81ae56c48728e242c141a9a8daad71
 .logotype {
   position: absolute;
   width: 20%;
