@@ -1,7 +1,7 @@
 {
   "name": "animation",
   "version": "1.0.0",
-  "description": "",
+  "description": "Animation Records",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -9,6 +9,14 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "sass": "^1.51.0"
-  }
+    "sass": "^1.52.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PazManrique/Animation-Records.git"
+  },
+  "bugs": {
+    "url": "https://github.com/PazManrique/Animation-Records/issues"
+  },
+  "homepage": "https://github.com/PazManrique/Animation-Records#readme"
 }

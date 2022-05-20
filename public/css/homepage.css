@@ -41,12 +41,7 @@ nav .movies {
 footer {
   text-align: center;
   background-color: #48D9A6;
-<<<<<<< HEAD
-  max-width: 800px;;
-  margin: 0px auto;
-=======
   max-width: 800px;
->>>>>>> 721b0ce11c8c865dd177c31dfa5d3a28d9ef094e
 }
 
 h1 {
@@ -77,6 +72,13 @@ h2 {
   border: solid black 2px;
   margin-right: 3em;
   margin-bottom: 3em;
+}
+.film1 #ca {
+  text-shadow: 0.03em 0.03em 0.08em white;
+  text-align: center;
+  color: black;
+  font-size: x-large;
+  font-weight: bold;
 }
 
 .film2 {
@@ -139,7 +141,7 @@ h2 {
 }
 
 #form {
-  background-image: url(/public/assets/photos/banners/banner3.jpg);
+  background-image: url(/public/photos/banners/banner3.jpg);
   background-size: cover;
   background-position: center;
   margin: 0 auto;
