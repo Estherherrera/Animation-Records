@@ -41,8 +41,12 @@ nav .movies {
 footer {
   text-align: center;
   background-color: #48D9A6;
+<<<<<<< HEAD
   max-width: 800px;;
   margin: 0px auto;
+=======
+  max-width: 800px;
+>>>>>>> 721b0ce11c8c865dd177c31dfa5d3a28d9ef094e
 }
 
 h1 {
