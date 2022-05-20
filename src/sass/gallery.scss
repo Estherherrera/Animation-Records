@@ -64,14 +64,23 @@ header {
         margin-left: 2em;
     }
 }
+
+h2 {
+    text-shadow: 0.03em 0.03em 0.08em white;
+    text-align: center;
+}
+
+
 .banner1 {
-    background-image: url(/public/assets/photos/banners/banner.png);
+    background-image: url(/public/assets/photos/banners/Howl3.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     max-width: 800px;
-    height: 150px;
+    height: 200px;
     margin-top: 3em;
+    text-align: center;
+    font-size: 30px;
 }
 
 footer {
