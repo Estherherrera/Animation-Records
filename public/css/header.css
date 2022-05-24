@@ -30,5 +30,10 @@ nav .movies {
   height: fit-content;
   align-self: center;
 }
+nav h1 {
+  text-shadow: 0.03em 0.03em 0.08em black;
+  text-align: left;
+  margin-left: 2.8em;
+}
 
 /*# sourceMappingURL=header.css.map */
