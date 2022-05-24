@@ -1,0 +1,83 @@
+body 
+    {
+        background-color: #E5E5E5;
+        max-width: 800px;
+        margin: 0px auto;
+        text-align: center;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+
+
+.productImage {
+    display: flex;
+    max-width: 800px;
+    justify-content: flex-start;
+    margin: 20px 0;
+
+    .mainPhoto {
+        
+        #aretes1ProductImage {
+            text-align: left;
+            position: relative;
+        img {width: 420px;
+        padding-right: 30px;}
+
+
+        }
+    }
+
+    .productDetails {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        max-width: 35%;
+        padding-left: 50px;
+
+        p{
+            font-size: larger;
+            text-align: justify;
+        }
+    }
+
+
+}
+
+.otherPictures {
+    display: flex;
+    justify-content:flex-start;
+
+    img {
+        max-width: 170px;
+        height: 120px;
+        padding: 3px;
+    }
+   
+}
+
+.recommended {
+    h3 {
+        text-shadow: 0.03em 0.03em 0.05em black;
+    text-align: left;
+    
+    }
+}
+
+    .recommendedPhotos {
+        margin-top: 50px;
+        margin-bottom: 50px;
+        max-width: 800px;
+        display: flex;
+        flex-wrap: wrap;
+        position: relative;
+        overflow: visible;
+        margin-left: 10px;
+        align-items: center;
+        justify-content: space-around;
+        img {
+            max-width: 170px;
+            height: 120px;
+        }
+        }
+    
+
+    
