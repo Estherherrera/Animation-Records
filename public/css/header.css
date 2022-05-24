@@ -32,6 +32,7 @@ nav #cart {
 }
 nav #cart .cartNumber {
   color: white;
+  margin-top: 2px;
   text-align: center;
 }
 nav #home {
