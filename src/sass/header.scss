@@ -1,0 +1,31 @@
+header {
+    display: flex;
+    background-image: url(/public/assets/photos/banners/banner2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 800px;
+    height: 114px;
+    #company {
+        align-self: flex-end;
+    }
+}
+
+.logotype {
+    position: absolute;
+    width: 20%;
+    height: 20%;
+}
+nav {
+    margin-top: 40px;
+    margin-left: 22%;
+    display: flex;
+    img {
+        max-width: 40px;
+        padding: 4px;
+    }
+    .movies {
+        padding: 0%;
+        height: fit-content;
+        align-self: center;
+    }
+}
