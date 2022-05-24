@@ -142,8 +142,35 @@ nav {
   margin-left: 22%;
   display: flex;
 }
-nav img {
-  max-width: 40px;
+nav #cart {
+  background-image: url(/public/assets/photos/cart-shopping-solid.svg);
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: auto;
+  width: 60px;
+  height: 60px;
+  padding: 4px;
+}
+nav #cart .cartNumber {
+  color: white;
+  text-align: center;
+}
+nav #home {
+  background-image: url(/public/assets/photos/house-chimney-solid.svg);
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: auto;
+  width: 60px;
+  height: 60px;
+  padding: 4px;
+}
+nav #droplist {
+  background-image: url(/public/assets/photos/film-solid.svg);
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: auto;
+  width: 60px;
+  height: 60px;
   padding: 4px;
 }
 nav .movies {
