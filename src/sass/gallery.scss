@@ -24,6 +24,11 @@ body {
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
+
+        .necklaceProductPage{
+            position: relative;
+            margin: 0%;
+        }
         p {
             position: relative;
             overflow: visible;
@@ -38,6 +43,7 @@ body {
             }
         }
     }
+
     a {
         margin-left: 700px;
         svg {

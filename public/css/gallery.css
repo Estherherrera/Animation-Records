@@ -103,6 +103,10 @@ body div {
   justify-content: center;
   flex-wrap: wrap;
 }
+body div .necklaceProductPage {
+  position: relative;
+  margin: 0%;
+}
 body div p {
   position: relative;
   overflow: visible;
