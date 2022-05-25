@@ -6,7 +6,7 @@ let suma = 0;
 suma = parseInt(suma);
 
 
-let result = '';
+let result = document.getElementsByClassName('cartNumber');
 
 
 
@@ -15,6 +15,7 @@ function acumulator() {
     btnValidate.addEventListener("click", function () {
             suma = suma + 1
 
+            
             console.log(suma);
         }
     )
@@ -24,3 +25,5 @@ function acumulator() {
 
 
     acumulator();
+
+    
