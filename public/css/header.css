@@ -18,7 +18,7 @@ header #company {
 
 nav {
   margin-top: 40px;
-  margin-left: 22%;
+  margin-left: 20%;
   display: flex;
 }
 nav #cart {
@@ -58,7 +58,8 @@ nav .movies {
   height: fit-content;
   align-self: center;
 }
-nav h1 {
+
+h1 {
   text-shadow: 0.03em 0.03em 0.08em black;
   text-align: left;
   margin-left: 2.8em;

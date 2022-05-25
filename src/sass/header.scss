@@ -15,58 +15,52 @@ header {
     width: 20%;
     height: 20%;
 }
+
 nav {
     margin-top: 40px;
-    margin-left: 22%;
+    margin-left: 20%;
     display: flex;
-    
-  
-    #cart{
-        background-image:url(/public/assets/photos/cart-shopping-solid.svg);
+    #cart {
+        background-image: url(/public/assets/photos/cart-shopping-solid.svg);
         position: relative;
         background-repeat: no-repeat;
         background-size: auto;
-       width: 60px;
-       height: 60px;
+        width: 60px;
+        height: 60px;
         padding: 4px;
-        
-
         .cartNumber {
             color: white;
-           margin-top: 2px;
-           text-align: center;
-          
+            margin-top: 2px;
+            text-align: center;
         }
     }
-
-        #home{
-            background-image:url(/public/assets/photos/house-chimney-solid.svg);
-            position: relative;
-            background-repeat: no-repeat;
-            background-size: auto;
-           width: 60px;
-           height: 60px;
-            padding: 4px;
-    }
-
-    #droplist{
-        background-image:url(/public/assets/photos/film-solid.svg);
+    #home {
+        background-image: url(/public/assets/photos/house-chimney-solid.svg);
         position: relative;
         background-repeat: no-repeat;
         background-size: auto;
-       width: 60px;
-       height: 60px;
+        width: 60px;
+        height: 60px;
         padding: 4px;
     }
-
+    #droplist {
+        background-image: url(/public/assets/photos/film-solid.svg);
+        position: relative;
+        background-repeat: no-repeat;
+        background-size: auto;
+        width: 60px;
+        height: 60px;
+        padding: 4px;
+    }
     .movies {
         padding: 0%;
         height: fit-content;
         align-self: center;
     }
-    h1 {
-        text-shadow: 0.03em 0.03em 0.08em black;
-        text-align: left;
-        margin-left: 2.8em;
-    }
+}
+
+h1 {
+    text-shadow: 0.03em 0.03em 0.08em black;
+    text-align: left;
+    margin-left: 2.8em;
 }

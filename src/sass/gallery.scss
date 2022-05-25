@@ -1,25 +1,19 @@
-@import 'footer.scss';
-@import 'banners.scss';
-@import 'header.scss';
-
-body {
-    background-color: #E5E5E5;
-    max-width: 800px;
-    margin: 0px auto;
-    text-align: left;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-   
+    @import 'footer.scss';
+    @import 'header.scss';
+    @import 'homepage.scss';
+    @import 'banners.scss';
     h2 {
         text-shadow: 0.05em 0.05em 0.1em rgb(0, 0, 0);
         text-align: center;
         color: white;
     }
-
+    
     h1 {
         text-shadow: 0.03em 0.03em 0.08em black;
         text-align: left;
         margin-left: 2em;
     }
+    
     div {
         display: flex;
         justify-content: center;
@@ -35,9 +29,9 @@ body {
             margin-left: 10px;
             align-items: center;
             img {
-                height: 120px;
-                width: 170px;
-                cursor: pointer;
+                height: 130px;
+                width: 180px;
+                cursor:pointer
             }
             span {
                 font-size: 22px;
@@ -45,6 +39,7 @@ body {
         }
     }
 
+    
     a {
         margin-left: 700px;
         svg {
@@ -57,5 +52,3 @@ body {
             border-radius: 5px;
         }
     }
-}
-
