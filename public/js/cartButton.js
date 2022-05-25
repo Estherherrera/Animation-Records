@@ -1,29 +1,20 @@
 
 
-let x = 1;
 let btnValidate = document.getElementById('cartProductPage');
-let suma = 0;
+let suma = 0
 suma = parseInt(suma);
-
-
-let result = document.getElementsByClassName('cartNumber');
-
+const result = document.getElementById('cartNumber');
 
 
 function acumulator() {
-
-    btnValidate.addEventListener("click", function () {
-            suma = suma + 1
-
-            
-            console.log(suma);
-        }
-    )
-
+    suma = suma + 1;
+    result.innerHTML = suma
 }
 
+function show() {
+    for (i = 0; i < 15; i++) {
+        btnValidate.addEventListener('click', acumulator)
+    }
+}
 
-
-    acumulator();
-
-    
+show();

@@ -31,10 +31,14 @@ nav {
         padding: 4px;
         
 
-        .cartNumber {
+        #cartNumber {
+            margin-top: 0%;
+            margin-left: 6px;
             color: white;
-           margin-top: 2px;
            text-align: center;
+           font-size: x-large;
+           font-weight: bolder;
+           text-shadow: 2px;
           
         }
     }

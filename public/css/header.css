@@ -30,10 +30,14 @@ nav #cart {
   height: 60px;
   padding: 4px;
 }
-nav #cart .cartNumber {
+nav #cart #cartNumber {
+  margin-top: 0%;
+  margin-left: 6px;
   color: white;
-  margin-top: 2px;
   text-align: center;
+  font-size: x-large;
+  font-weight: bolder;
+  text-shadow: 2px;
 }
 nav #home {
   background-image: url(/public/assets/photos/house-chimney-solid.svg);
