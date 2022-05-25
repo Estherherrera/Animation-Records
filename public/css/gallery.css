@@ -116,6 +116,7 @@ body div p {
 body div p img {
   height: 120px;
   width: 170px;
+  cursor: pointer;
 }
 body div p span {
   font-size: 22px;
