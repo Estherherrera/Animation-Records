@@ -20,8 +20,36 @@ nav {
     margin-top: 40px;
     margin-left: 20%;
     display: flex;
-    img {
-        max-width: 40px;
+    #cart {
+        background-image: url(/public/assets/photos/cart-shopping-solid.svg);
+        position: relative;
+        background-repeat: no-repeat;
+        background-size: auto;
+        width: 60px;
+        height: 60px;
+        padding: 4px;
+        .cartNumber {
+            color: white;
+            margin-top: 2px;
+            text-align: center;
+        }
+    }
+    #home {
+        background-image: url(/public/assets/photos/house-chimney-solid.svg);
+        position: relative;
+        background-repeat: no-repeat;
+        background-size: auto;
+        width: 60px;
+        height: 60px;
+        padding: 4px;
+    }
+    #droplist {
+        background-image: url(/public/assets/photos/film-solid.svg);
+        position: relative;
+        background-repeat: no-repeat;
+        background-size: auto;
+        width: 60px;
+        height: 60px;
         padding: 4px;
     }
     .movies {
@@ -29,4 +57,10 @@ nav {
         height: fit-content;
         align-self: center;
     }
+}
+
+h1 {
+    text-shadow: 0.03em 0.03em 0.08em black;
+    text-align: left;
+    margin-left: 2.8em;
 }

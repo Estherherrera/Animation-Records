@@ -1,6 +1,6 @@
 Animation Records
 
-git repository:
+git repository: https://github.com/PazManrique/Animation-Records.git
 
 dependencias:
 sass

@@ -21,14 +21,48 @@ nav {
   margin-left: 20%;
   display: flex;
 }
-nav img {
-  max-width: 40px;
+nav #cart {
+  background-image: url(/public/assets/photos/cart-shopping-solid.svg);
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: auto;
+  width: 60px;
+  height: 60px;
+  padding: 4px;
+}
+nav #cart .cartNumber {
+  color: white;
+  margin-top: 2px;
+  text-align: center;
+}
+nav #home {
+  background-image: url(/public/assets/photos/house-chimney-solid.svg);
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: auto;
+  width: 60px;
+  height: 60px;
+  padding: 4px;
+}
+nav #droplist {
+  background-image: url(/public/assets/photos/film-solid.svg);
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: auto;
+  width: 60px;
+  height: 60px;
   padding: 4px;
 }
 nav .movies {
   padding: 0%;
   height: fit-content;
   align-self: center;
+}
+
+h1 {
+  text-shadow: 0.03em 0.03em 0.08em black;
+  text-align: left;
+  margin-left: 2.8em;
 }
 
 /*# sourceMappingURL=header.css.map */
