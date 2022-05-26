@@ -2,6 +2,7 @@
     @import 'header.scss';
     @import 'homepage.scss';
     @import 'banners.scss';
+    @import 'enlaces.scss';
     h2 {
         text-shadow: 0.05em 0.05em 0.1em rgb(0, 0, 0);
         text-align: center;
@@ -30,18 +31,5 @@
             span {
                 font-size: 22px;
             }
-        }
-    }
-    
-    a {
-        margin-left: 700px;
-        svg {
-            background-color: #48D9A6;
-            padding: 5px 20px;
-            max-width: 40px;
-            cursor: pointer;
-            border: none;
-            text-shadow: 0.01em 0.01em 0.04em black;
-            border-radius: 5px;
         }
     }

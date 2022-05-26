@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Detail Product</title>
     <link rel="stylesheet" href="/public/css/product.css">
-    
+
 </head>
 
 <body>
@@ -15,10 +15,12 @@
         <img id="logotype" src="/public/assets/photos/Totoro-cabeza.png" alt="Cabeza de totoro">
         <h2 id="company">Animation Records</h2>
         <nav>
-            <div id="cart"><p class="cartNumber"></p></div> 
-            <div id="home"></div> 
-            <div id="droplist"></div> 
-            
+            <div id="cart">
+                <p class="cartNumber"></p>
+            </div>
+            <div id="home"></div>
+            <div id="droplist"></div>
+
             <select class="movies" name="movies">
                 <option value="film0">Seleccione su película</option>
                 <option value="film1">El Castillo Ambulante</option>
@@ -33,21 +35,17 @@
     <main>
         <div class="productImage">
             <div class=mainPhoto>
-                <p id="aretes1ProductImage"> <img src="/public/assets/photos/productos/Aretes.avif" alt="aretes"></p>
+                <p id="aretes1ProductImage"> <img id="earrings" src="/public/assets/photos/productos/Aretes.avif" alt="aretes"></p>
                 <div class="otherPictures">
-                    <img id="aretes2ProductImage" src="/public/assets/photos/productos/Aretes.avif" alt="">
-                    <img id="pendienteProductImage" src="/public/assets/photos/productos/pendiente.png"
-                        alt="pendeintes">
-                    <img id="collaresProductImage" src="/public/assets/photos/productos/collares.png" alt="collares">
+                    <img id="aretes2ProductImage" src="/public/assets/photos/productos/Aretes.avif" alt="mismos aretes" onclick="showEarrings()">
+                    <img id="pendienteProductImage" src="/public/assets/photos/productos/pendiente.png" alt="pendientes" onclick="showPendant()">
+                    <img id="collaresProductImage" src="/public/assets/photos/productos/collares.png" alt="collares" onclick="showNecklace()">
                 </div>
 
             </div>
             <aside class="productDetails">
                 <p id="productDetails">
-                    Cristales artificiales engastados en oro, con pedrería roja.
-                    Los pendientes se unen a los anillos.
-                    El collar se puede cerrar con una cadena de eslabones con tamaño ajustable.
-                    Los anillos son abiertos y por lo tanto unisize /ajustables
+                    Cristales artificiales engastados en oro, con pedrería roja. Los pendientes se unen a los anillos. El collar se puede cerrar con una cadena de eslabones con tamaño ajustable. Los anillos son abiertos y por lo tanto unisize /ajustables
                 </p>
                 <button id="like">I Like this</button>
                 <div class="addToCart">
@@ -74,10 +72,12 @@
 
         </div>
     </div>
+    <a class="linkHome" href="gallery.html" title="Ir a Galeria de Productos"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M256 0C114.6 0 0 114.6 0 256c0 141.4 114.6 256 256 256s256-114.6 256-256C512 114.6 397.4 0 256 0zM384 288H205.3l49.38 49.38c12.5 12.5 12.5 32.75 0 45.25s-32.75 12.5-45.25 0L105.4 278.6C97.4 270.7 96 260.9 96 256c0-4.883 1.391-14.66 9.398-22.65l103.1-103.1c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25L205.3 224H384c17.69 0 32 14.33 32 32S401.7 288 384 288z"/></svg></a>
     <footer>
         <h3>&copy; Animation Records</h3>
     </footer>
-    <script src="/public/js/cartButton.js" ></script>
+    <script src="/public/js/cartButton.js"></script>
+    <script src="/public/js/miniature.js"></script>
 </body>
 
 </html>

@@ -311,6 +311,20 @@ h2 {
   font-size: 30px;
 }
 
+a {
+  margin-left: 700px;
+}
+a svg {
+  background-color: #48D9A6;
+  padding: 5px 20px;
+  margin: 0px;
+  max-width: 40px;
+  cursor: pointer;
+  border: none;
+  text-shadow: 0.01em 0.01em 0.04em black;
+  border-radius: 5px;
+}
+
 h2 {
   text-shadow: 0.05em 0.05em 0.1em rgb(0, 0, 0);
   text-align: center;
@@ -340,19 +354,6 @@ div p img {
 }
 div p span {
   font-size: 22px;
-}
-
-a {
-  margin-left: 700px;
-}
-a svg {
-  background-color: #48D9A6;
-  padding: 5px 20px;
-  max-width: 40px;
-  cursor: pointer;
-  border: none;
-  text-shadow: 0.01em 0.01em 0.04em black;
-  border-radius: 5px;
 }
 
 /*# sourceMappingURL=gallery.css.map */
