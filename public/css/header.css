@@ -1,68 +1,17 @@
-header {
-  display: flex;
-  background-image: url(/public/assets/photos/banners/banner2.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  max-width: 800px;
-  height: 114px;
-}
-header #company {
-  align-self: flex-end;
-}
+/* Error: expected "{".
+ *    ,
+ * 48 | >>>>>>> Paz
+ *    |            ^
+ *    '
+ *   src\sass\header.scss 48:12  root stylesheet */
 
-.logotype {
-  position: absolute;
-  width: 20%;
-  height: 20%;
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: 'Error: expected "{".\a    \2577 \a 48 \2502  >>>>>>> Paz\d\a    \2502             ^\a    \2575 \a   src\\sass\\header.scss 48:12  root stylesheet';
 }
-
-nav {
-  margin-top: 40px;
-  margin-left: 20%;
-  display: flex;
-}
-nav #cart {
-  background-image: url(/public/assets/photos/cart-shopping-solid.svg);
-  position: relative;
-  background-repeat: no-repeat;
-  background-size: auto;
-  width: 60px;
-  height: 60px;
-  padding: 4px;
-}
-nav #cart .cartNumber {
-  color: white;
-  margin-top: 2px;
-  text-align: center;
-}
-nav #home {
-  background-image: url(/public/assets/photos/house-chimney-solid.svg);
-  position: relative;
-  background-repeat: no-repeat;
-  background-size: auto;
-  width: 60px;
-  height: 60px;
-  padding: 4px;
-}
-nav #droplist {
-  background-image: url(/public/assets/photos/film-solid.svg);
-  position: relative;
-  background-repeat: no-repeat;
-  background-size: auto;
-  width: 60px;
-  height: 60px;
-  padding: 4px;
-}
-nav .movies {
-  padding: 0%;
-  height: fit-content;
-  align-self: center;
-}
-
-h1 {
-  text-shadow: 0.03em 0.03em 0.08em black;
-  text-align: left;
-  margin-left: 2.8em;
-}
-
-/*# sourceMappingURL=header.css.map */
