@@ -1,7 +1,9 @@
-    @import 'footer.scss';
-    @import 'header.scss';
-    @import 'homepage.scss';
-    @import 'banners.scss';
+@import 'footer.scss';
+@import 'banners.scss';
+@import 'categories.scss';
+@import 'form.scss';
+@import 'header.scss';
+
     h2 {
         text-shadow: 0.05em 0.05em 0.1em rgb(0, 0, 0);
         text-align: center;
