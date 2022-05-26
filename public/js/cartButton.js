@@ -9,6 +9,7 @@ const result = document.getElementById('cartNumber');
 function acumulator() {
     suma = suma + 1;
     result.innerHTML = suma
+
 }
 
 function show() {

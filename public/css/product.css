@@ -1,18 +1,192 @@
-/* Error: expected "{".
- *    ,
- * 48 | >>>>>>> Paz
- *    |            ^
- *    '
- *   src\sass\header.scss 48:12  @import
- *   src\sass\product.scss 3:9   root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: 'Error: expected "{".\a    \2577 \a 48 \2502  >>>>>>> Paz\d\a    \2502             ^\a    \2575 \a   src\\sass\\header.scss 48:12  @import\a   src\\sass\\product.scss 3:9   root stylesheet';
+footer {
+  text-align: center;
+  background-color: #48D9A6;
+  max-width: 800px;
+  float: none;
 }
+
+.banner1 {
+  background-image: url(/public/assets/photos/banners/banner.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  max-width: 800px;
+  height: 200px;
+}
+
+.banner2 {
+  background-image: url(/public/assets/photos/banners/Howl3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  max-width: 800px;
+  height: 200px;
+}
+
+.banner {
+  margin-top: 2em;
+  text-align: center;
+  font-size: 30px;
+}
+
+header {
+  display: flex;
+  background-image: url(/public/assets/photos/banners/banner2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  max-width: 800px;
+  height: 114px;
+}
+header #company {
+  align-self: flex-end;
+}
+
+.logotype {
+  position: absolute;
+  width: 20%;
+  height: 20%;
+}
+
+nav {
+  margin-top: 40px;
+  margin-left: 20%;
+  display: flex;
+}
+nav #cart {
+  background-image: url(/public/assets/photos/cart-shopping-solid.svg);
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: auto;
+  width: 60px;
+  height: 60px;
+  padding: 4px;
+}
+nav #cart #cartNumber {
+  margin-top: 0%;
+  margin-left: 6px;
+  color: white;
+  text-align: center;
+  font-size: x-large;
+  font-weight: bolder;
+  text-shadow: 2px;
+}
+nav #home {
+  background-image: url(/public/assets/photos/house-chimney-solid.svg);
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: auto;
+  width: 60px;
+  height: 60px;
+  padding: 4px;
+}
+nav #droplist {
+  background-image: url(/public/assets/photos/film-solid.svg);
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: auto;
+  width: 60px;
+  height: 60px;
+  padding: 4px;
+}
+nav .movies {
+  padding: 0%;
+  height: fit-content;
+  align-self: center;
+}
+
+h1 {
+  text-shadow: 0.03em 0.03em 0.08em black;
+  text-align: left;
+  margin-left: 2.8em;
+}
+
+body {
+  background-color: #E5E5E5;
+  max-width: 800px;
+  margin: 0px auto;
+  text-align: center;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.productImage {
+  display: flex;
+  max-width: 800px;
+  justify-content: flex-start;
+  margin: 20px 0;
+}
+.productImage .mainPhoto #aretes1ProductImage {
+  text-align: left;
+  position: relative;
+}
+.productImage .mainPhoto #aretes1ProductImage img {
+  width: 420px;
+  padding-right: 30px;
+}
+.productImage .productDetails {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  max-width: 35%;
+  padding-left: 50px;
+}
+.productImage .productDetails p {
+  font-size: larger;
+  text-align: justify;
+}
+.productImage .productDetails .addToCart:hover {
+  opacity: 0.7;
+}
+.productImage .productDetails .addToCart {
+  background-image: url(/public/assets/photos/cart-shopping-solid.svg);
+  opacity: 1;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: auto;
+  width: 80px;
+  height: 80px;
+  padding: 4px;
+  align-self: center;
+}
+.productImage .productDetails .addToCart #cartProductPage {
+  color: white;
+  border-width: 0ch;
+  padding: 0px;
+  font-size: small;
+  text-align: center;
+  margin-top: 1px;
+  margin-left: 7px;
+  cursor: pointer;
+}
+.productImage .otherPictures {
+  display: flex;
+  justify-content: flex-start;
+}
+.productImage .otherPictures img {
+  max-width: 170px;
+  height: 120px;
+  padding: 3px;
+}
+
+.recommended h3 {
+  text-shadow: 0.03em 0.03em 0.05em black;
+  text-align: left;
+}
+
+.recommendedPhotos {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  max-width: 800px;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  overflow: visible;
+  margin-left: 10px;
+  align-items: center;
+  justify-content: space-around;
+}
+.recommendedPhotos img {
+  max-width: 170px;
+  height: 120px;
+}
+
+/*# sourceMappingURL=product.css.map */
