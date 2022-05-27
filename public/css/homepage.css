@@ -38,7 +38,7 @@ footer {
 }
 
 .film1 {
-  background-image: url(../photos/banners/Howl.jpg);
+  background-image: url(/public/assets/photos/banners/Howl3.jpg);
   background-size: cover;
   width: 20em;
   height: 6em;
@@ -56,7 +56,7 @@ footer {
 }
 
 .film2 {
-  background-image: url(../photos/banners/Castillo.jpg);
+  background-image: url(/public/assets/photos/banners/castillo\ en\ el\ cielo.jpg);
   background-size: cover;
   width: 20em;
   height: 6em;
@@ -67,7 +67,7 @@ footer {
 }
 
 .film3 {
-  background-image: url(../photos/banners/chihiro.png);
+  background-image: url(/public/assets/photos/banners/chihiro.png);
   background-size: cover;
   background-position: center;
   width: 20em;
@@ -79,7 +79,7 @@ footer {
 }
 
 .film4 {
-  background-image: url(../photos/banners/mononoke.png);
+  background-image: url(/public/assets/photos/banners/mononoke.png);
   background-size: cover;
   background-position: center;
   width: 20em;
@@ -91,7 +91,7 @@ footer {
 }
 
 .film5 {
-  background-image: url(../photos/banners/totoro.jpg);
+  background-image: url(/public/assets/photos/banners/totoro.jpg);
   background-size: cover;
   background-position: center;
   width: 20em;
@@ -103,7 +103,7 @@ footer {
 }
 
 .film6 {
-  background-image: url(../photos/banners/ponyo.jpg);
+  background-image: url(/public/assets/photos/banners/ponyo.jpg);
   background-size: cover;
   background-position: center;
   width: 20em;
@@ -122,7 +122,7 @@ form {
 /* Add some padding and a grey background color to containers */
 .container {
   padding: 20px;
-  background-image: url(/public/photos/banners/banner3.jpg);
+  background-image: url(/public/assets/photos/banners/banner3.jpg);
   background-size: cover;
 }
 
