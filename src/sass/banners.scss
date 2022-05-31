@@ -7,6 +7,15 @@
     height: 200px;
 }
 
+.slideshow-container {
+    background-image: url(/public/assets/assets/banners/banner1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    max-width: 800px;
+    height: 150px;
+    margin-top: 3em;}
+
 .banner2 {
     background-image: url(/public/assets/photos/banners/Howl3.jpg);
     background-size: cover;

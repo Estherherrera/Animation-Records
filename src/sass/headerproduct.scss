@@ -1,0 +1,73 @@
+header {
+    display: flex;
+    background-image: url(/public/assets/photos/banners/banner2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 800px;
+    height: 114px;
+    #company {
+        align-self: flex-end;
+    }
+}
+
+.logotype {
+    position: absolute;
+    width: 20%;
+    height: 20%;
+}
+
+nav {
+    margin-top: 40px;
+    margin-left: 20%;
+    display: flex;
+    #cart {
+        background-image: url(/public/assets/photos/cart-shopping-solid.svg);
+        position: relative;
+        background-repeat: no-repeat;
+        background-size: auto;
+        width: 60px;
+        height: 60px;
+        padding: 4px;
+        
+
+        #cartNumber {
+            margin-top: 0%;
+            margin-left: 6px;
+            color: white;
+           text-align: center;
+           font-size: x-large;
+           font-weight: bolder;
+           text-shadow: 2px;
+          
+        }
+    }
+    #home {
+        background-image: url(/public/assets/photos/house-chimney-solid.svg);
+        position: relative;
+        background-repeat: no-repeat;
+        background-size: auto;
+        width: 60px;
+        height: 60px;
+        padding: 4px;
+    }
+    #droplist {
+        background-image: url(/public/assets/photos/film-solid.svg);
+        position: relative;
+        background-repeat: no-repeat;
+        background-size: auto;
+        width: 60px;
+        height: 60px;
+        padding: 4px;
+    }
+    .movies {
+        padding: 0%;
+        height: fit-content;
+        align-self: center;
+    }
+}
+
+h1 {
+    text-shadow: 0.03em 0.03em 0.08em black;
+    text-align: left;
+    margin-left: 2.8em;
+}

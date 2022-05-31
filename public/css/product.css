@@ -3,30 +3,7 @@ footer {
   background-color: #48D9A6;
   max-width: 800px;
   float: none;
-}
-
-.banner1 {
-  background-image: url(/public/assets/photos/banners/banner.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  max-width: 800px;
-  height: 200px;
-}
-
-.banner2 {
-  background-image: url(/public/assets/photos/banners/Howl3.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  max-width: 800px;
-  height: 200px;
-}
-
-.banner {
-  margin-top: 2em;
-  text-align: center;
-  font-size: 30px;
+  position: relative;
 }
 
 header {
